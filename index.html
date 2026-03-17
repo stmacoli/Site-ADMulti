@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ADM & Automação</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="logo.png" alt="Logo ADMulti">
+        <span>ADMulti</span>
+      </div>
+
+      <ul class="menu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#resultados">Resultados</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="hero-text fade-in">
+      <h1>Soluções em administração e automação para empresas que querem crescer</h1>
+      <p>
+        Organizamos processos, reduzimos retrabalho e criamos rotinas inteligentes para sua empresa ganhar tempo, produtividade e controle.
+      </p>
+      <a href="#contato" class="btn">Solicitar atendimento</a>
+    </div>
+
+    <div class="hero-card fade-in">
+      <h3>O que fazemos</h3>
+      <p>• Automação de tarefas repetitivas</p>
+      <p>• Organização administrativa</p>
+      <p>• Controle de dados e relatórios</p>
+      <p>• Padronização de processos internos</p>
+      <p>• Suporte para crescimento operacional</p>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <h2 class="section-title fade-in">Sobre a empresa</h2>
+    <div class="cards">
+      <div class="card fade-in">
+        <h3>Visão estratégica</h3>
+        <p>Atuamos para transformar tarefas manuais em processos mais rápidos, seguros e organizados.</p>
+      </div>
+      <div class="card fade-in">
+        <h3>Foco em eficiência</h3>
+        <p>Nosso objetivo é ajudar empresas a economizar tempo, reduzir erros e melhorar a tomada de decisão.</p>
+      </div>
+      <div class="card fade-in">
+        <h3>Soluções personalizadas</h3>
+        <p>Cada negócio tem uma rotina diferente. Por isso, adaptamos as soluções conforme a necessidade de cada cliente.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos">
+    <h2 class="section-title fade-in">Nossos serviços</h2>
+    <div class="cards">
+      <div class="card fade-in">
+        <h3>Automação de processos</h3>
+        <p>Desenvolvimento de sistemas e rotinas para automatizar tarefas administrativas e operacionais.</p>
+      </div>
+      <div class="card fade-in">
+        <h3>Gestão de dados</h3>
+        <p>Organização de planilhas, bancos de dados e relatórios para facilitar o acompanhamento da empresa.</p>
+      </div>
+      <div class="card fade-in">
+        <h3>Padronização</h3>
+        <p>Criação de fluxos, checklists e processos internos para aumentar a produtividade e a qualidade.</p>
+      </div>
+      <div class="card fade-in">
+        <h3>Consultoria operacional</h3>
+        <p>Análise da rotina da empresa para identificar gargalos e implementar melhorias práticas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="resultados">
+    <h2 class="section-title fade-in">Impacto para o seu negócio</h2>
+    <div class="numbers">
+      <div class="number-box fade-in">
+        <h3 id="num1">0%</h3>
+        <p>Mais produtividade</p>
+      </div>
+      <div class="number-box fade-in">
+        <h3 id="num2">0h</h3>
+        <p>Tempo economizado</p>
+      </div>
+      <div class="number-box fade-in">
+        <h3 id="num3">0%</h3>
+        <p>Menos retrabalho</p>
+      </div>
+      <div class="number-box fade-in">
+        <h3 id="num4">0%</h3>
+        <p>Mais controle</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2 class="section-title fade-in">Fale com a gente</h2>
+    <div class="contact">
+      <form class="fade-in" id="contactForm">
+        <input type="text" id="nome" placeholder="Seu nome" required />
+        <input type="email" id="email" placeholder="Seu e-mail" required />
+        <input type="text" id="empresa" placeholder="Sua empresa" />
+        <textarea id="mensagem" placeholder="Conte o que sua empresa precisa"></textarea>
+        <button type="submit">Enviar mensagem</button>
+      </form>
+
+      <div class="contact-info fade-in">
+        <p><strong>Atendimento:</strong> Segunda a sexta</p>
+        <p><strong>Email:</strong> contato@suaempresa.com</p>
+        <p><strong>WhatsApp:</strong> (11) 99999-9999</p>
+        <p><strong>Especialidades:</strong> administração, automação, organização de processos, relatórios e produtividade.</p>
+        <p id="statusMensagem"></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 ADM & Automação - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
