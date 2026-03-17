@@ -153,6 +153,16 @@ section {
   color: #750097;
 }
 
+.features {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.features li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
 .numbers {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
