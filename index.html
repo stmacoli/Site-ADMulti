@@ -103,11 +103,26 @@
   <section id="contato">
     <h2 class="section-title fade-in">Fale com a gente</h2>
     <div class="contact">
-      <form class="fade-in" id="contactForm">
-        <input type="text" id="nome" placeholder="Seu nome" required />
-        <input type="email" id="email" placeholder="Seu e-mail" required />
-        <input type="text" id="empresa" placeholder="Sua empresa" />
-        <textarea id="mensagem" placeholder="Conte o que sua empresa precisa"></textarea>
+      <form
+        class="fade-in"
+        id="contactForm"
+        action="https://api.web3forms.com/submit"
+        method="POST"
+      >
+        <input type="hidden" name="access_key" value="a3e5blalablanaoleia" />
+        <input type="hidden" name="subject" value="Novo contato pelo site da ADMulti" />
+        <input type="hidden" name="from_name" value="Site ADMulti" />
+
+        <input type="text" name="name" id="nome" placeholder="Seu nome" required />
+        <input type="email" name="email" id="email" placeholder="Seu e-mail" required />
+        <input type="text" name="empresa" id="empresa" placeholder="Sua empresa" />
+        <textarea
+          name="message"
+          id="mensagem"
+          placeholder="Conte o que sua empresa precisa"
+          required
+        ></textarea>
+
         <button type="submit">Enviar mensagem</button>
       </form>
 
